@@ -8,11 +8,13 @@ body{
     margin:5px;
     background:white;
     opacity:1;
+    border-radius:20px;
 }
 
 img{
     height:75px;
     margin:5px;
+    
 }
 .enemy{
     float:left;
@@ -21,6 +23,7 @@ img{
     background:red;
     margin:5px;
     opacity:1;
+    border-radius:20px;
 }
 .defending{
     background:black;
@@ -30,6 +33,7 @@ img{
     margin:5px;
     float:left;
     opacity:1;
+    border-radius:20px;
 }
 #yourchoice, #enemies, #defender, #fight{
     width:100%;
