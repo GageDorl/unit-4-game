@@ -1,0 +1,20 @@
+<html>
+    <head>
+        <title>Unit 4 Game</title>
+        <link rel=stylesheet type=text/css href=assets\css\style.css>
+        <link rel=stylesheet type=text/css href=assets\css\reset.css>
+    </head>
+    <body>
+        <h1>Minecraft RPG</h1>
+        <div id=player1 class='player' name='Steve' attackPower=12 hp=75>Steve<br><img src=https://gamepedia.cursecdn.com/minecraft_gamepedia/f/f3/Steve.png><br><span id=hp>75</span></div>
+        <div id=player2 class='player' name='Zombie' attackPower=10 hp=85>Zombie<br><img src=https://vignette.wikia.nocookie.net/minecraft/images/e/e8/New_Zombie.png/revision/latest?cb=20190525152011><br><span id=hp>85</span></div>
+        <div id=player3 class='player' name='Villager' attackPower=5 hp=100>Villager<br><img src=https://gamepedia.cursecdn.com/minecraft_gamepedia/d/d8/Plains_Villager_Base.png><br><span id=hp>100</span></div>
+        <div id=player4 class='player' name='Skeleton' attackPower=20 hp=50>Skeleton<br><img src=https://vignette.wikia.nocookie.net/minecraft/images/2/23/Skeleton.png/revision/latest?cb=20130120052248><br><span id=hp>50</span></div>
+        <div id=yourchoice>Your Character<br></div>
+        <div id=enemies>Enemies<br></div>
+        <div id=fight>Fight Area<br><button id=killbutt>Fight</button><br></div>
+        <div id=defender>Defender<br><span id=attackInfo></span></div>
+        <script src="http://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+        <script src=assets\javascript\game.js></script>
+    </body>
+</html>
